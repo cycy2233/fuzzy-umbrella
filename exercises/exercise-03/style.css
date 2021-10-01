@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0；
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.first{
+    background-color:beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display:block;
+    float:left;
+    width:40%;
+    height:100%;
+}
+.second{
+    background-color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    font-weight: 600;
+    width: 40%;
+    height:100%;
+}
+.third{
+    background-color:seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    display:block;
+    float: right;
+    width: 20%;
+    height:100%;
+}
+.title{
+    background-color:aqua;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    height:8%;
+}
