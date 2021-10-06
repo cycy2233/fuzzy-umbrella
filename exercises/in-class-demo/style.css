@@ -1,0 +1,44 @@
+/* this is the reset to remove html element styling */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    background-color: antiquewhite;
+    height:100%;
+}
+header{
+    height:20%;
+    background-color: tomato;
+}
+nav,footer{
+    height:10%;
+    background-color:aquamarine;
+}
+main{
+    height:60%;
+    background-color: blanchedalmond;
+}
+
+aside{
+    width: 20%;
+    height: 100%;
+    background-color: coral;
+    display: inline-block;
+    float: left;
+}
+
+section{
+    width:60%;
+    height: 100%;
+    background-color: darkseagreen;
+    display: inline-block;
+    float: left;
+}
