@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 140%;
+}
+
+.container{
+    background-color: antiquewhite;
+    height:140%;
+
+}
+
+
+header{
+    position:fixed;
+    right:0px;
+    width:240px;
+    height: 400px;
+    background-color:burlywood;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.author{
+    font-style: italic;
+    color:lightslategray;
+    font-size: 18px;
+}
+h1{
+    font-size: 45px;
+}
+main{
+    font-size: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+}
+.item{
+    width:410px;
+    height:550px;
+    margin:5px;
+    background-color:floralwhite;
+}
+h3{
+    font-style: italic;
+    font-size: 24px;
+}
