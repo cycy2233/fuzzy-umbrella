@@ -1,15 +1,23 @@
-body{
-    background-color: tomato;
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html,body{
     height:100%;
 }
-html{
-    height: 150%;
+
+body{
+    background-color: tomato;
 }
 
 .container{
     display: flex;
-    flex-direction:row-reverse;
+    height: 100%;
+    flex-direction:row;
     justify-content: center;
+    align-items: center;
 }
 
 .item{
@@ -17,4 +25,12 @@ html{
     height:100px;
     margin:5px;
     background-color:floralwhite;
+    line-height: 100px;
 }
+
+.item:nth-child(2){
+    flex-grow: 2;
+    background-color: green;
+    align-self: flex-end;
+}
+
