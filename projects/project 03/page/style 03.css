@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.gallery-section{
+ width:100%;
+ padding: 20px 0;
+ background:white;
+
+}
+
+.inner-width{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    padding: 0 20px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    font-family:"montserrat",sans-serif;
+
+}
+
+.border{
+    width:150px;
+    height:4px;
+    background:black;
+    margin:40px auto;
+
+}
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 30px 0;
+}
