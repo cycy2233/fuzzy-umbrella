@@ -11,9 +11,9 @@ let height = 5;
 console.log(age);
 console.log(height);*/
 
-let noun = "apple";
-let adjactive = "sweet";
-let verb = "eat";
+// let noun = "apple";
+// let adjactive = "sweet";
+// let verb = "eat";
 
-let senctence = `I want to ${verb} a ${adjactive} ${noun}`
-console.log(senctence);
+// let senctence = `I want to ${verb} a ${adjactive} ${noun}`
+// console.log(senctence);
