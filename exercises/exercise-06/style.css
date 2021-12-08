@@ -1,0 +1,20 @@
+.square{
+    width:200px;
+    height:200px;
+    background:tomato;
+    animation:bounceIn 3s ease-in-out;
+  }
+  
+  @keyframes bounceIn{
+    0%{
+      transform:scale(0.1);
+      opacity:0;
+    }
+    50%{
+      transform:scale(1.4);
+      opacity:1;
+    }
+    100%{
+      transform:scale(1);
+    }
+  }

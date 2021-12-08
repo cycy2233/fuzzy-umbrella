@@ -5,8 +5,7 @@
   box-sizing: border-box;
   
 }
-body, 
-html{
+h1{
     text-transform: uppercase;
     color:black;
     font-family:"montserrat",sans-serif;
@@ -30,6 +29,12 @@ h1{
 
 nav {
   height: 60px;
+  text-transform: uppercase;
+  color:black;
+  font-family:"montserrat",sans-serif;
+  width:100%;
+  padding: 20px 0;
+  background:white;
 }
 
 .container {
@@ -78,4 +83,11 @@ li:hover{
     flex-wrap:wrap;
     justify-content: center;
 
+}
+.word{
+  text-align: center;
+  width: 400px;
+  font-size: 18px;
+  padding:60px 50px;
+  
 }
